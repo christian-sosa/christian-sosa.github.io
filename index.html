@@ -4,61 +4,64 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Analitica de datos</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         
     </head>
     <header>
-        <nav>
-            <ul>
-                <a href="index.html">
-                    <img src="logo.png" alt="logo">
-                </a>
+        <div class="container">
+            <img src="imgs/logo_data2.png" alt="" class="logo">
+            <nav>
+                <a href="#hero">Home</a>
                 <a href="#nosotros">Nosotros</a>
                 <a href="#clientes">Clientes</a>
                 <a href="#contacto">Contacto</a>
-            </ul>
-        </nav>
+            </nav>
+        </div>
     </header>
     <main>
-        <div>
+        <section id="hero">
             <h1>Transforma tu negocio con una estrategia data driven</h1>
-            <h2 id="nosotros">Nosotros</h2>
+        </section>
+        <section id="nosotros">
+            <div class="container">
+                <h2 class="nosotros-color">Nosotros</h2>
                 <ul>
-                    <li>
-                        <h3>Mision</h3>
-                    </li>
+                    <li class="mision"><h3 class="nosotros-color">Mision</h3></li>
                     <p>Nuestra mision es ayudar a nuestros clientes a tomar decisiones inteligentes basadas en los datos.</p>
-                    <li>
-                        <h3>Valores</h3>
-                    </li>
+                    <hr>
+                    <li class="valores"><h3 class="nosotros-color">Valores</h3></li>
                     <p>Somos una empresa comprometida en ayudar a todos nuestros clientes. No brindamos solo software. No solo te damos las herramientas si no que te enseñamos a usarlas.</p>   
-                    <li>
-                        <h3>Vision</h3>
-                    </li>
+                    <hr>
+                    <li class="vision"><h3 class="nosotros-color">Vision</h3></li>
                     <p>Queremos inspirar a todas las empresas a subirse a la tendencia data driven para optimizar sus procesos y tomar mejores decisiones</p>
+                    <hr>
                 </ul>
-            <h2 id="clientes">Clientes</h2>
-            <p>Casos de exito</p>
-            <ul>
-                <li>
-                    <h3>Lavadero Pepito</h3>
-                    <p>Para este cliente se realizaron diversos dashboard que se alimentaban en tiempo real de la informacion recolectaba por el software del negocio. </p>
-                    <p>Con estos indicadores el cliente pudo tomar mejores decisiones sobre en que horarios hace falta mas personal. Que productos son los que mas se utilizan. Entre otras cosas</p>
-                </li>
-                <li>
-                    <h3>Restaurante Pedrito</h3>
-                    <p>A partir de la informacion acerca del Stock se realizaron reportes que alertaban posibles faltantes.</p>
-                    <p>Con estos indicadores el cliente puede decidir de manera inteligente sus futuras compras</p>
-                </li>
-            </ul>
-            <h2 id="contacto">Contacto</h2>
-            <ul>
-                <li>WhatsApp: +12 34 5678 9101</li>
-                <li>Email: sosa.christian.agustin@gmail.com</li>
-                <li>Direccion: Av Alsina 1960 5A</li>
-            </ul>
-        </div>
+            </div>
+        </section>
+
+        <section id="clientes">
+            <h2 class="clientes-color">Clientes</h2>
+            <div class="container">
+                <div class="imgs-container">
+                    <h3 class="clientes-color">Lavadero Automático AutoClean</h3>
+                    <p>Para AutoClean desarrollamos un sistema de optimización de uso de recursos, incluyendo agua y detergentes, basado en el análisis de datos históricos de consumo. Como resultado, lograron reducir sus costos operativos en un 25% y mejorar la eficiencia del tiempo de lavado.</p>
+                </div>
+                <div class="imgs-container">
+                    <h3 class="clientes-color">Restaurante La Gourmetta</h3>
+                    <p>Implementamos un sistema de gestión de inventario que analiza tendencias de consumo para predecir la demanda de ingredientes. Esto ha permitido a La Gourmetta reducir el desperdicio de alimentos en un 20% y aumentar la satisfacción del cliente al evitar la falta de platos populares.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados</p>
+        <div class="container">
+            <p>&copy; 2024 Analítica de Datos. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#" class="social-link"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="social-link"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="social-link"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
     </footer>
 </html>
